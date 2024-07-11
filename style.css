@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #300a42 !important;
+}
+.colour {
+    color: rgb(205,95,248);
+}
+.colour1{
+    background-color: #300a42 !important;
+}
+.colour3{
+    color: rgb(155, 126, 172);
+}
+a{
+    text-decoration: none;
+}
+.font-size-m{
+    font-size: 50px !important;
+    font-weight: 600;
+}
+.container-fluid {
+    padding: 0px !important;
+}
+.container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10000px;
+    background-color: #300a42;  /*nav bar full length*/
+}   
+.navbar-nav li a i {
+    margin-right: 8px;
+}
+.navbar-nav li a {
+    margin-left: 30px;
+}
+.nav-link {
+    font-size: 19.2px;
+    font-weight: 600;
+    line-height: 29px;
+}
+.nav-link-hover{
+    color: white !important;
+}
+.nav-link-hover:hover{
+    color: #be50f4 !important;
+}
+.btn-primary{
+    width: auto;
+    height: 32px;
+    padding: 4px 10px;
+    background-color: #934cce5e !important;
+    box-shadow: none !important;
+    border: none;
+    border-radius: 5px;
+    border-color: #623686 !important;;
+}
+.btn-primary:hover {
+    transform: translatey(-2px);
+    transition: 0.2s;
+    background-color: #be50f4 !important;
+    box-shadow:0 4px 8px rgba(177, 157, 221, 0.2) !important;
+    transition:  0.5s ease-in-out;
+}
+.navbar-light .navbar-toggler  {
+    color: none !important;
+    box-shadow: none;
+}
+.navbar-light:hover .navbar-toggler{
+    border-color: #be50f4 !important ;
+}
+
+
+
+/* HOME SECTION  */
+#home-section{
+    margin-top: 160px !important;
+}
+.home-img-mobile img{
+    height: 380px !important;
+    width: 380px !important;
+}
+.heading-hi-there{
+    padding-bottom: 15px;
+    font-size: 2.4em !important;
+    color: #f5f5f5;
+}
+.haeding-gulzar{
+    font-size: 2.5em !important;
+    color: #f5f5f5;
+}
+.main-name {
+    font-weight: 600 !important;
+}
+.haeding-i-m{
+    color: white;
+    font-size: 2.4rem;
+}
+/* Home page :- INTRODUCE*/
+#INTRODUCE {
+    margin-top: 110px !important;
+}
+.myself{
+    color: white;
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 500;
+}
+.avatr{
+    height: 293px;
+    width: 280px;
+}
+#footer{
+    background-color: #0a0416;
+}
+.icon-color{
+    color:  #abafb2 !important; 
+}
+.icon-color:hover{
+    color: #18cb33 !important;
+}
+/* Home page :-project */
+.project-name{
+    background: linear-gradient(to right, #300a42,#5c2e7a,#300a42, #300a42);
+    margin-left: 13px ;
+}
+.project-click{
+    background: linear-gradient(to right, #300a42,#5c2e7a,#300a42 #300a42);
+    display: inline-block;
+    color: white;
+    margin-left: 13px !important;
+}
+/* Home page :- skill and technology */
+.kill-icon{
+    height: 110px;
+
+}
+.project-hover:hover{
+    background-color:rgb(205,95,248);
+    transition: 1.5s linear;
+    /* opacity: 0.5; */
+}
+.shadow{
+    box-shadow:  5px 5px 5px rgba(233, 219, 219, 0.05) !important;
+}
+.fs-1 {
+    font-size: 40px !important;
+}
+
+
+
+/*---------------------------------------------------------------------------------------------------------------- */
+/* About page:- */
+.js-style{
+    margin-left: 40px !important;
+}
+.line-heigh{
+    line-height: 10px;
+}
+.red {
+    color: #FF0000;
+}
+.green {
+
+    color: #228B22;
+}
+.blue {
+    color: #0000FF;
+}
+.maroon {
+    color: #800000;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+/* Blog page:-  */
+.blog{
+    width: 75% !important;
+}
+.article{
+    background-color: #623686;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* only for mobile */
+ @media (max-width: 576px){
+    .blog p{
+        width: 100% !important;
+        font-size: 10px !important;
+    }
+}
+/* tab + mobile */
+@media (max-width: 768px){
+    .container-fluid {
+        margin: 0px 0px !important;
+    }
+    .container {
+        padding: 0px 12px !important;
+    }
+    #section {
+        padding: 0 12px;
+    }
+    .navbar-nav li a{
+        margin-left: 0px;
+    }
+
+    /* home section */
+    #home-section{
+        margin-top: 15px !important ;
+    }
+    .home-img-mobile img{
+         margin-top: 20px; 
+        /* margin-left: 10px !important; */ 
+        height: 296px !important;
+        width: 296px !important;
+        
+    }
+    #home-section{
+        height: auto;
+    }
+    .haeding-i-m{
+        font-size: 2.1rem;
+    }
+    .fs-4{
+        font-size: 21px !important;
+    }
+    #INTRODUCE{
+        margin-top: 3rem !important;
+    }
+    .avatr{
+        height: 263px;
+        width: 240px;
+    }
+    .avtar-img{
+        margin-top: 0 !important;
+    }
+    .avatr-div{
+        padding-top: 10px !important;
+    }
+    .Developed{
+        margin: 0 !important;
+    }
+    /* project  */
+    .font-size-m{
+        font-size: 30px !important;
+    }
+    .project-click{
+        margin-left: 10px !important;
+    }
+    .project-name{
+        margin-left: 10px !important;
+        font-size: 1rem;
+    }
+    /* skill */
+    .skill{
+        padding: 0 0 !important;
+    }
+    .line-heigh{
+        line-height: 20px !important;
+    }
+    .blog{
+        width: 100% !important; 
+    }
+}
