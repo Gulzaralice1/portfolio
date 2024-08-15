@@ -194,6 +194,13 @@ a{
         width: 100% !important;
         font-size: 10px !important;
     }
+    .project-mobile-view{
+        margin-top: 0px !important;
+    }
+    .embed-responsive-item{
+        height: 625px;
+        width: 360px;
+    }
 }
 /* tab + mobile */
 @media (max-width: 768px){
